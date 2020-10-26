@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>post_create</title>
+</head>
+<body>
+<h1>Form</h1>
+<form action="" method="POST">{% csrf_token %}
+{{ form.as_p }}
+<input class="btn btn-success" type="Submit" value="Create Post">
+</form>
+</body>
+</html>
